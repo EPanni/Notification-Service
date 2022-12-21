@@ -21,6 +21,7 @@ export class SendNotification {
     request: SendNotificationRequest,
   ): Promise<SendNotificationResponse> {
     const { recipientId, content, category } = request;
+
     const notification = new Notification({
       recipientId,
       content: new Content(content),
@@ -28,6 +29,9 @@ export class SendNotification {
     });
 
     await this.notificationsRepository.create(notification);
-    return { notification };
+
+    return {
+      notification,
+    };
   }
 }
