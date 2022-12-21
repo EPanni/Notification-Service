@@ -26,9 +26,11 @@
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
-## Installation
+mavconstrutor## Installation
 
 ```bash
+Please make sure that node version > v14.17.0 is being used.
+
 $ npm install
 ```
 
