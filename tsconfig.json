@@ -15,6 +15,7 @@
     "strict": true,
     "strictNullChecks": true,
     "noImplicitAny": false,
+    "resolveJsonModule": true,
     "strictBindCallApply": false,
     "strictPropertyInitialization": false,
     "forceConsistentCasingInFileNames": false,
@@ -24,6 +25,10 @@
       "@helpers/*":["./src/helpers/*"],
       "@infra/*":["./src/application/infra/*"],
       "@test/*":["./test/*"],
+      "@entities/*":["./src/application/entities/*"],
+      "@repositories/*":["./src/application/repositories/*"],
+      "@errors/*":["./src/application/use-cases/errors/*"],
+      
     }
 
   }
