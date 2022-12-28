@@ -1,4 +1,3 @@
-import { Content } from '@application/entities/notification/content';
 import { Notification } from '@application/entities/notification/notification';
 
 export class NotificationViewModel {
