@@ -14,12 +14,13 @@
     "skipLibCheck": true,
     "strict": true,
     "strictNullChecks": true,
-    "noImplicitAny": false,
     "resolveJsonModule": true,
-    "strictBindCallApply": false,
     "strictPropertyInitialization": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
     "forceConsistentCasingInFileNames": false,
     "noFallthroughCasesInSwitch": false,
+
     "paths": {
       "@application/*":["./src/application/*"],
       "@helpers/*":["./src/helpers/*"],
@@ -27,7 +28,6 @@
       "@entities/*":["./src/application/entities/*"],
       "@repositories/*":["./src/application/repositories/*"],
       "@errors/*":["./src/application/use-cases/errors/*"],
-      
     }
 
   }
