@@ -29,9 +29,25 @@
 mavconstrutor## Installation
 
 ```bash
+
+Running without Docker:
+
 Please make sure that node version > v14.17.0 is being used.
 
 $ npm install
+
+Running With Docker:
+
+To start our app in development mode, write the following command in your terminal:
+
+$ docker-compose up dev
+
+To start our app in development mode, write the following command in your terminal:
+
+$ docker-compose up prod
+
+
+
 ```
 
 ## Running the app
